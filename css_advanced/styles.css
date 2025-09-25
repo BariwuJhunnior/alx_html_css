@@ -222,13 +222,17 @@ header {
 }
 
 #membership button{
-  padding: 5px 30px;
-  border-radius: 10px;
+  padding: 10px 30px;
+  border-radius: 20px;
   border: none;
   background-color: rgb(157, 55, 157);
   color: white;
   font-weight: bold;
   font-size: 10px;
+  cursor: pointer;
+}
+#membership button:hover {
+  opacity: .8;
 }
 
 .faq-row1, .faq-row2 {
@@ -252,4 +256,38 @@ header {
   font-size: 40px;
   margin-bottom: 0;
   
+}
+
+footer {
+  background-color: rgb(33, 32, 60);
+}
+
+.footer-links img {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.t {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+  align-items: center;
+}
+
+.footer-global-block {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.footer-global-block p {
+  margin-bottom: 20px;
 }
