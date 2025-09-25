@@ -204,3 +204,29 @@ header {
 .video-rating span{
   align-items: start;
 }
+
+#membership {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 40px 80px;
+}
+.membership-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+#membership button{
+  padding: 5px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(157, 55, 157);
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
