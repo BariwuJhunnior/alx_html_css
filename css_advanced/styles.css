@@ -126,3 +126,24 @@ header {
 		padding: 30px 20px 0 20px;
 	}
 }
+
+.quote-block {
+  display: flex;
+  gap: 30px;
+  padding: 100px 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(188, 133, 188);
+}
+.quote-block img {
+  width: 100px;
+  height: 100px;
+}
+
+.quote-author {
+  margin-bottom: 0px;
+}
+
+.author-job {
+  margin-top: 5px;
+}
