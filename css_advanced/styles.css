@@ -147,3 +147,60 @@ header {
 .author-job {
   margin-top: 5px;
 }
+
+#videos {
+  background-color: white;
+  color: black;
+  padding: 50px 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+#videos h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+#videos h2 span {
+  color: rgb(188, 133, 188);
+}
+#videos p {
+  color: gray;
+}
+.videos-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.thumbnail-container {
+  position: relative;
+  display: inline-block;
+}
+.thumbnail {
+  width: 100%;
+  display: block;
+}
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 48px;
+  height: 48px;
+  transform: translate(-50%, -50%);
+}
+
+.video-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.video-author img{
+  width: 50px;
+  height: 50px;
+}
+
+.video-rating span{
+  align-items: start;
+}
