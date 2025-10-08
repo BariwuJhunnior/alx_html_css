@@ -1,1 +1,1 @@
-In this project, I will implement from scratch, without any library, a web page. I will use all HTML/CSS/Accessibility/Responsive design knowledges that I learned previously. 
+In this project, I will implement a responsive web page from scratch, without using any libraries. I will utilize all the HTML/CSS/Accessibility/Responsive design knowledge I have previously learned. 
