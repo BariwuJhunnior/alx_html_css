@@ -1,0 +1,660 @@
+/* Helberton School Icons */
+@font-face {
+  font-family: 'holberton_school-icon';
+  src:  url('fonts/holberton_school-icon.eot?7zw9o6');
+  src:  url('fonts/holberton_school-icon.eot?7zw9o6#iefix') format('embedded-opentype'),
+    url('fonts/holberton_school-icon.ttf?7zw9o6') format('truetype'),
+    url('fonts/holberton_school-icon.woff?7zw9o6') format('woff'),
+    url('fonts/holberton_school-icon.svg?7zw9o6#holberton_school-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'holberton_school-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-arrow_1:before {
+  content: "\e900";
+}
+.holberton_school-icon-arrow_2:before {
+  content: "\e901";
+}
+.holberton_school-icon-arrow_3:before {
+  content: "\e902";
+}
+.holberton_school-icon-arrow_4:before {
+  content: "\e903";
+}
+.holberton_school-icon-arrow_5:before {
+  content: "\e904";
+}
+.holberton_school-icon-check:before {
+  content: "\e905";
+}
+.holberton_school-icon-ic_bag:before {
+  content: "\e906";
+}
+.holberton_school-icon-ic_cart:before {
+  content: "\e907";
+}
+.holberton_school-icon-ic_facebook:before {
+  content: "\e908";
+}
+.holberton_school-icon-ic_hearing:before {
+  content: "\e909";
+}
+.holberton_school-icon-ic_instagram:before {
+  content: "\e90a";
+}
+.holberton_school-icon-ic_laptop:before {
+  content: "\e90b";
+}
+.holberton_school-icon-ic_money:before {
+  content: "\e90c";
+}
+.holberton_school-icon-ic_music:before {
+  content: "\e90d";
+}
+.holberton_school-icon-ic_sound:before {
+  content: "\e90e";
+}
+.holberton_school-icon-ic_twitter:before {
+  content: "\e90f";
+}
+.holberton_school-icon-ic_video:before {
+  content: "\e910";
+}
+.holberton_school-icon-menu:before {
+  content: "\e911";
+}
+.holberton_school-icon-search_1:before {
+  content: "\e912";
+}
+.holberton_school-icon-search_2:before {
+  content: "\e913";
+}
+.holberton_school-icon-star:before {
+  content: "\e914";
+}
+
+
+
+
+/* Real Styling Start Here */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", Arial, sans-serif ;
+  box-sizing: border-box;
+  /* color: white; */
+}
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  background: url(images/headphones_hero_1.jpg), center top no-repeat, 
+  linear-gradient(180deg, #23243a 0%, #3b3e51 100%);
+  background-size: cover cover;
+}
+
+.container {
+  min-height: 70vh;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.header-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 0 100px 30px 100px;
+  padding-top: 30px;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 32px;
+  margin-right: 10px;
+}
+
+.nav-menu{
+  display: flex;
+  gap: 20px;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.nav a:hover {
+  color: rgb(239, 66, 66);
+  opacity: 0.9;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+header p:nth-child(3) {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+header button {
+  padding: 10px 15px;
+  border-radius: 60px;
+  background: rgb(239, 66, 66);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 50px;
+  transition: 0.3s ease;
+}
+header button:hover {
+  opacity: 0.9;
+}
+
+header p:last-child {
+  width: 600px;
+  text-align: center;
+}
+
+.humberger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.bar:nth-child(2){
+    width: 20px;
+  }
+
+
+@media(max-width:480px) {
+
+  header h1 {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header p:first-of-type {
+    width: 300px;
+  }
+
+  header p:last-child{
+    width: 300px;
+  }
+
+
+  .humberger {
+    display: block;
+  }
+
+  .humberger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .humberger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  
+  .humberger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-menu a{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+}
+
+
+@media(max-width:700px) {
+  header h1 {
+    width: 400px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  header p:first-of-type {
+    margin-bottom: 40px;
+  }
+
+  header p:last-of-type {
+    width: 380px;
+  }
+
+  .humberger {
+    display: block;
+  }
+
+  .humberger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .humberger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  
+  .humberger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-menu a{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    right: -100px;
+  }
+}
+
+/* Styling for WHAT WE DO SECTION */
+.what-we-do {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px;
+  gap: 30px;
+}
+
+.description {
+  width: 40%;
+}
+
+.tile-wrapper {
+  position: relative;
+  overflow: visible;
+}
+
+.tile {
+  width: 200px;
+  transition: 0.25s ease;
+  will-change: transform;
+  transform-origin: center;
+}
+.tile:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 10;
+}
+
+
+
+.items {
+  padding-bottom: 0;
+}
+
+span {
+  font-size: 80px;
+  color: rgb(239, 66, 66);
+}
+
+@media(max-width: 900px){
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .what-we-do {
+    margin-top: 60px;
+    margin-bottom: 90px;
+  }
+
+  .description {
+    width: 80%;
+  }
+}
+
+@media(max-width:480px) {
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media(max-width:500px) {
+  .tile-wrapper {
+    position: relative;
+    overflow: visible;
+  }
+
+  .tile {
+    width: 200px;
+    transition: 0.25s ease;
+    will-change: transform;
+    transform-origin: center;
+  }
+  .tile:hover {
+    transform: scale(1.1);
+    position: relative;
+    z-index: 10;
+  }
+}
+
+
+.our-result {
+  width: 100%;
+  min-height: 100vh;
+  background: url(images/headphones_hero_2.jpg), center top, no-repeat, linear-gradient(180deg, #23243a, #3b3e51);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.our-result p{
+  width: 50%;
+  color: white;
+}
+
+.our-result p:first-of-type {
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.our-result img {
+  width: 200px;
+  
+}
+
+.one {
+  position: relative;
+  transition: 0.25s ease;
+}
+.one:hover {
+  transform: scale(1.1);
+}
+
+
+.one .text {
+  position: absolute;
+  top: -20%;
+  left: 25%;
+}
+.one .words {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+ 
+.text {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+.words {
+  text-align: center;
+  color: white;
+}
+
+@media(max-width:900px) {
+  .results {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-bottom: 100px;
+  }
+
+  .one {
+  position: relative;
+  }
+
+  .one .text {
+    position: absolute;
+    top: -40px;
+    left: -45%;
+  }
+
+  .one .words {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+  }
+
+  .our-result p:first-of-type {
+    width: 400px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+
+@media(max-width:480px) {
+  .results {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+/* CONTACT US EDIT */
+
+.contact-us {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.textBox {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 250px;
+  outline: none;
+  font-size: 14px;
+}
+
+.textBox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.call-to-action-btn {
+  padding: 10px 20px;
+  border-radius: 80px;
+  border: none;
+  font-weight: bold;
+  background: rgb(239, 66, 66);
+  color: rgb(237, 236, 236);
+  transition: 0.3s ease;
+  cursor: pointer;
+  font-size: 12px;
+}
+.call-to-action-btn:hover {
+  transform: translateY(-5px);
+  opacity: 0.9;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+.call-to-action-btn:active {
+  opacity: 0.7;
+}
+
+@media(max-width:480px) {
+  .textBox {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 250px;
+    outline: none;
+    font-size: 12px;
+  }
+
+  .call-to-action-btn {
+    padding: 8px 18px;
+    border-radius: 80px;
+    border: none;
+    font-weight: 550;
+    background: rgb(239, 66, 66);
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+}
+
+
+/* FOOTER STYLE EDIT */
+footer {
+  background-color: rgb(2, 2, 35);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(175, 175, 175);
+  padding: 10px 200px;
+}
+
+.footer-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container img{
+  height: 32px;
+}
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+
+.holberton_school-icon-ic_facebook, .holberton_school-icon-ic_twitter, .holberton_school-icon-ic_instagram {
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.social{
+  transition: 0.3s;
+}
+
+.social:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 5px rgba(255,255,255,0.2);
+  border: none;
+  background: transparent;
+
+}
+
+
+@media(max-width:480px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-container img {
+    margin-bottom: 10px;
+  }
+
+  .copyright p{
+    width: 200px;
+    text-align: center;
+  }
+}
+
+@media(max-width:700px){
+  .footer-container {
+    gap: 15px;
+  }
+}
